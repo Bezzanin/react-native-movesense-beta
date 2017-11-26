@@ -1,0 +1,81 @@
+PODS:
+  - Movesense (1.0.0)
+  - PromiseKit (4.4.3):
+    - PromiseKit/Foundation (= 4.4.3)
+    - PromiseKit/QuartzCore (= 4.4.3)
+    - PromiseKit/UIKit (= 4.4.3)
+  - PromiseKit/CorePromise (4.4.3)
+  - PromiseKit/Foundation (4.4.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.4.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.4.3):
+    - PromiseKit/CorePromise
+  - React/BatchedBridge (0.50.4):
+    - React/Core
+    - React/cxxreact_legacy
+  - React/Core (0.50.4):
+    - yoga (= 0.50.4.React)
+  - React/cxxreact_legacy (0.50.4):
+    - React/jschelpers_legacy
+  - React/DevSupport (0.50.4):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.50.4)
+  - React/jschelpers_legacy (0.50.4)
+  - React/RCTBlob (0.50.4):
+    - React/Core
+  - React/RCTImage (0.50.4):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.50.4):
+    - React/Core
+  - React/RCTText (0.50.4):
+    - React/Core
+  - React/RCTWebSocket (0.50.4):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - SwiftyJSON (3.1.4)
+  - Toast-Swift (2.0.0)
+  - yoga (0.50.4.React)
+
+DEPENDENCIES:
+  - Movesense (from `ssh://git@altssh.bitbucket.org:443/suunto/movesense-mobile-lib.git`, branch `master`)
+  - PromiseKit (~> 4.1)
+  - React/BatchedBridge (from `../node_modules/react-native`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - SwiftyJSON
+  - Toast-Swift (~> 2.0.0)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  Movesense:
+    :branch: master
+    :git: ssh://git@altssh.bitbucket.org:443/suunto/movesense-mobile-lib.git
+  React:
+    :path: ../node_modules/react-native
+  yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga
+
+CHECKOUT OPTIONS:
+  Movesense:
+    :commit: 2fd9931549778d0e2409e3bd7cfa296cadfdd7c7
+    :git: ssh://git@altssh.bitbucket.org:443/suunto/movesense-mobile-lib.git
+
+SPEC CHECKSUMS:
+  Movesense: b44153240b2b08d2eb67c3c86cbd3cd7c61eca6f
+  PromiseKit: fbb52a0d154402c57eeb6eccd36dd7724fcf6117
+  React: 6d7efef18e0241eb832cf4c085405169a15080ed
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+  yoga: b9aebf996711e50fc31f5608c10aa108a5a0c29e
+
+PODFILE CHECKSUM: 70584d30b764e9db3edc10f98280647a6c6eae33
+
+COCOAPODS: 1.3.1

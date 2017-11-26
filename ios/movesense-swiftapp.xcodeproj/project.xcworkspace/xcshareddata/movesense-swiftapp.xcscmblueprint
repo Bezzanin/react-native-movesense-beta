@@ -1,0 +1,65 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E9A0EAF7031E98C2C273A2BD7CC7B62D673BE98D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "381BCEDBCCA7BD2115280CE0212F691534A77764" : 9223372036854775807,
+    "E9A0EAF7031E98C2C273A2BD7CC7B62D673BE98D" : 9223372036854775807,
+    "26A3F1227E93EE3ABC425921B100B981BEC6C341" : 9223372036854775807,
+    "B6E7FF88BD79924BCB2D06FB11BD0EB61E782880" : 9223372036854775807,
+    "59A5716CF7E247E7C67632DCC85579E23BE8D0D7" : 9223372036854775807,
+    "93843BC0AD83DCE40BBAE0CC1C5B6569185AF051" : 9223372036854775807,
+    "25EAEDC49A823639E537846C1E855B30F761437D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "845DB0DA-CA59-4ED7-B6A5-72B628674DDD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "381BCEDBCCA7BD2115280CE0212F691534A77764" : "movesense-ios-testapp\/movesense-lib\/",
+    "E9A0EAF7031E98C2C273A2BD7CC7B62D673BE98D" : "movesense-ios-testapp\/",
+    "26A3F1227E93EE3ABC425921B100B981BEC6C341" : "movesense-ios-testapp\/movesense-lib\/nextgen\/",
+    "B6E7FF88BD79924BCB2D06FB11BD0EB61E782880" : "movesense-ios-testapp\/komposti\/",
+    "59A5716CF7E247E7C67632DCC85579E23BE8D0D7" : "movesense-ios-testapp\/komposti\/3rdparty\/json_spirit\/",
+    "93843BC0AD83DCE40BBAE0CC1C5B6569185AF051" : "movesense-ios-testapp\/movesense-lib\/whiteboard\/quantity\/",
+    "25EAEDC49A823639E537846C1E855B30F761437D" : "movesense-ios-testapp\/movesense-lib\/whiteboard\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "movesense-swiftapp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "movesense-swiftapp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/altssh.bitbucket.org:443\/suunto\/whiteboard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "25EAEDC49A823639E537846C1E855B30F761437D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/altssh.bitbucket.org:443\/suunto\/nextgen.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "26A3F1227E93EE3ABC425921B100B981BEC6C341"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/altssh.bitbucket.org:443\/suunto\/movesense-lib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "381BCEDBCCA7BD2115280CE0212F691534A77764"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/altssh.bitbucket.org:443\/suunto\/json_spirit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "59A5716CF7E247E7C67632DCC85579E23BE8D0D7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/altssh.bitbucket.org:443\/suunto\/quantity.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "93843BC0AD83DCE40BBAE0CC1C5B6569185AF051"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/altssh.bitbucket.org:443\/suunto\/komposti.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B6E7FF88BD79924BCB2D06FB11BD0EB61E782880"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/altssh.bitbucket.org:443\/suunto\/movesense-ios-testapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E9A0EAF7031E98C2C273A2BD7CC7B62D673BE98D"
+    }
+  ]
+}

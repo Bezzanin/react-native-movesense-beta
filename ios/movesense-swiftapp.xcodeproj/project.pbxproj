@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21FFB751627BE14F8C3502BC /* Pods_movesense_swiftapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F4CACA6E0AA60FE2027BAB7 /* Pods_movesense_swiftapp.framework */; };
+		3FC1A9861FCA202C00C1C880 /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A9841FCA202C00C1C880 /* HelloWorld.m */; };
+		3FC1A9951FCA4CEC00C1C880 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A9941FCA4CEC00C1C880 /* HelloWorld.swift */; };
+		4A2742581DE3225100C326F5 /* DeviceTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2742571DE3225100C326F5 /* DeviceTabController.swift */; };
+		4A2742631DE4299300C326F5 /* SubscriptionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2742621DE4299300C326F5 /* SubscriptionDetailViewController.swift */; };
+		4A5BD3B91DD0B816004B88A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5BD3B81DD0B816004B88A2 /* AppDelegate.swift */; };
+		4A5BD3BE1DD0B816004B88A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5BD3BC1DD0B816004B88A2 /* Main.storyboard */; };
+		4A5BD3C01DD0B816004B88A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5BD3BF1DD0B816004B88A2 /* Assets.xcassets */; };
+		4A5BD3CE1DD0B816004B88A2 /* MovesenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5BD3CD1DD0B816004B88A2 /* MovesenseTests.swift */; };
+		4A5BD3D91DD0B816004B88A2 /* movesense_swiftappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5BD3D81DD0B816004B88A2 /* movesense_swiftappUITests.swift */; };
+		4A5BD4011DD0BE02004B88A2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5BD4001DD0BE02004B88A2 /* libc++.tbd */; };
+		4A5BD4031DD0BE1D004B88A2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5BD4021DD0BE1D004B88A2 /* CoreBluetooth.framework */; };
+		4A72BEF71DD1B3F8009DF457 /* ScanListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72BEF61DD1B3F8009DF457 /* ScanListViewController.swift */; };
+		4A72BEF91DD1B5AD009DF457 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72BEF81DD1B5AD009DF457 /* DetailViewController.swift */; };
+		D695FB2A1E2FAF2000819FF4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D695FB291E2FAF2000819FF4 /* CoreFoundation.framework */; };
+		FF57CAA21F0F72EF00394EBE /* libmds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF57CAA11F0F72EF00394EBE /* libmds.a */; };
+		FF57CAB21F0FD31600394EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF57CAB01F0FD31600394EBE /* LaunchScreen.storyboard */; };
+		FF94272C1F0D31D7001C352B /* BleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94272B1F0D31D7001C352B /* BleController.swift */; };
+		FF9427361F0D32A7001C352B /* MovesenseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9427351F0D32A7001C352B /* MovesenseService.swift */; };
+		FFB8AD941F445F11000D6EE5 /* DataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8AD931F445F11000D6EE5 /* DataFile.swift */; };
+		FFC920DF1F0E518C00D69101 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC920DE1F0E518C00D69101 /* libz.tbd */; };
+		FFF2C81A1F4AC12300B7EDF8 /* MemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2C8191F4AC12300B7EDF8 /* MemViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0F34FA1FC9C8350015147F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACE9F411DD2111F003EC898 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00E13F7401BC074048D4486DF6EE2AB5;
+			remoteInfo = React;
+		};
+		3F0F34FC1FC9C8350015147F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACE9F411DD2111F003EC898 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A01B545EA84D2B0CEA78BA30DD018F9;
+			remoteInfo = yoga;
+		};
+		4A06082D1DD9EFD8000140EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACE9F411DD2111F003EC898 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0B0ED08866B6503E36FFAA747C5B0990;
+			remoteInfo = PromiseKit;
+		};
+		4A5BD3CA1DD0B816004B88A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A5BD3AD1DD0B816004B88A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A5BD3B41DD0B816004B88A2;
+			remoteInfo = "movesense-swiftapp";
+		};
+		4A5BD3D51DD0B816004B88A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A5BD3AD1DD0B816004B88A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A5BD3B41DD0B816004B88A2;
+			remoteInfo = "movesense-swiftapp";
+		};
+		4A7019251DE708C50009CC8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACE9F411DD2111F003EC898 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 487954D4C2E960AF4F377E6D45F92C97;
+			remoteInfo = SwiftyJSON;
+		};
+		4A7019271DE708C50009CC8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACE9F411DD2111F003EC898 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AD940D23AF70430635A7EA015B5722;
+			remoteInfo = "Toast-Swift";
+		};
+		4ACE9F4A1DD2111F003EC898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACE9F411DD2111F003EC898 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 558A58E7B6FE3CD8E3BCB2C051EF232A;
+			remoteInfo = "Pods-movesense-swiftapp";
+		};
+		D6588DAD1E34A44600877937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACE9F411DD2111F003EC898 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C83639B3F87813A04A418447C5E35252;
+			remoteInfo = Movesense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F0F34F21FC9C8350015147F /* RCTRootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTRootView.h; path = "../node_modules/react-native/React/Base/RCTRootView.h"; sourceTree = "<group>"; };
+		3FC1A97C1FCA202C00C1C880 /* HelloWorld-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		3FC1A9841FCA202C00C1C880 /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = SOURCE_ROOT; };
+		3FC1A9941FCA4CEC00C1C880 /* HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = SOURCE_ROOT; };
+		4A2742571DE3225100C326F5 /* DeviceTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTabController.swift; sourceTree = "<group>"; };
+		4A2742621DE4299300C326F5 /* SubscriptionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionDetailViewController.swift; sourceTree = "<group>"; };
+		4A5BD3B51DD0B816004B88A2 /* movesense-swiftapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movesense-swiftapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5BD3B81DD0B816004B88A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A5BD3BD1DD0B816004B88A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A5BD3BF1DD0B816004B88A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A5BD3C41DD0B816004B88A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5BD3C91DD0B816004B88A2 /* movesense-swiftappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "movesense-swiftappTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5BD3CD1DD0B816004B88A2 /* MovesenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovesenseTests.swift; sourceTree = "<group>"; };
+		4A5BD3CF1DD0B816004B88A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5BD3D41DD0B816004B88A2 /* movesense-swiftappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "movesense-swiftappUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5BD3D81DD0B816004B88A2 /* movesense_swiftappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movesense_swiftappUITests.swift; sourceTree = "<group>"; };
+		4A5BD3DA1DD0B816004B88A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5BD4001DD0BE02004B88A2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4A5BD4021DD0BE1D004B88A2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4A72BEF61DD1B3F8009DF457 /* ScanListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanListViewController.swift; sourceTree = "<group>"; };
+		4A72BEF81DD1B5AD009DF457 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4ACE9F411DD2111F003EC898 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		5F26FE123E01CB282A455009 /* Pods-movesense-swiftapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movesense-swiftapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-movesense-swiftapp/Pods-movesense-swiftapp.debug.xcconfig"; sourceTree = "<group>"; };
+		5F4CACA6E0AA60FE2027BAB7 /* Pods_movesense_swiftapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_movesense_swiftapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A3128DC0EF2B659181D9AC /* Pods-movesense-swiftapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movesense-swiftapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-movesense-swiftapp/Pods-movesense-swiftapp.release.xcconfig"; sourceTree = "<group>"; };
+		6AC00E1A152234E99D15B217 /* Pods_movesense_swiftappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_movesense_swiftappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F9B526003BB791F59A23F2 /* Pods_movesense_swiftappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_movesense_swiftappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D695FB291E2FAF2000819FF4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FF57CAA11F0F72EF00394EBE /* libmds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmds.a; path = "Pods/Movesense/IOS/Movesense/Release-iphoneos/libmds.a"; sourceTree = "<group>"; };
+		FF57CAB11F0FD31600394EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF94272B1F0D31D7001C352B /* BleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleController.swift; sourceTree = "<group>"; };
+		FF9427351F0D32A7001C352B /* MovesenseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovesenseService.swift; sourceTree = "<group>"; };
+		FFB8AD931F445F11000D6EE5 /* DataFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFile.swift; sourceTree = "<group>"; };
+		FFC920DE1F0E518C00D69101 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FFF2C8191F4AC12300B7EDF8 /* MemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A5BD3B21DD0B816004B88A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF57CAA21F0F72EF00394EBE /* libmds.a in Frameworks */,
+				FFC920DF1F0E518C00D69101 /* libz.tbd in Frameworks */,
+				D695FB2A1E2FAF2000819FF4 /* CoreFoundation.framework in Frameworks */,
+				4A5BD4031DD0BE1D004B88A2 /* CoreBluetooth.framework in Frameworks */,
+				4A5BD4011DD0BE02004B88A2 /* libc++.tbd in Frameworks */,
+				21FFB751627BE14F8C3502BC /* Pods_movesense_swiftapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5BD3C61DD0B816004B88A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5BD3D11DD0B816004B88A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5BD3AC1DD0B816004B88A2 = {
+			isa = PBXGroup;
+			children = (
+				4A5BD3B71DD0B816004B88A2 /* movesense-swiftapp */,
+				4A5BD3CC1DD0B816004B88A2 /* movesense-swiftappTests */,
+				4A5BD3D71DD0B816004B88A2 /* movesense-swiftappUITests */,
+				4A5BD3B61DD0B816004B88A2 /* Products */,
+				4ACE9F411DD2111F003EC898 /* Pods.xcodeproj */,
+				4A5BD3ED1DD0B875004B88A2 /* Frameworks */,
+				70C9CC3A3DB1090E5E608201 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4A5BD3B61DD0B816004B88A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A5BD3B51DD0B816004B88A2 /* movesense-swiftapp.app */,
+				4A5BD3C91DD0B816004B88A2 /* movesense-swiftappTests.xctest */,
+				4A5BD3D41DD0B816004B88A2 /* movesense-swiftappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A5BD3B71DD0B816004B88A2 /* movesense-swiftapp */ = {
+			isa = PBXGroup;
+			children = (
+				3FC1A9941FCA4CEC00C1C880 /* HelloWorld.swift */,
+				3FC1A97C1FCA202C00C1C880 /* HelloWorld-Bridging-Header.h */,
+				3FC1A9841FCA202C00C1C880 /* HelloWorld.m */,
+				FF9427351F0D32A7001C352B /* MovesenseService.swift */,
+				FF94272B1F0D31D7001C352B /* BleController.swift */,
+				4A5BD3B81DD0B816004B88A2 /* AppDelegate.swift */,
+				4A72BEF61DD1B3F8009DF457 /* ScanListViewController.swift */,
+				4A2742571DE3225100C326F5 /* DeviceTabController.swift */,
+				4A72BEF81DD1B5AD009DF457 /* DetailViewController.swift */,
+				4A2742621DE4299300C326F5 /* SubscriptionDetailViewController.swift */,
+				FFF2C8191F4AC12300B7EDF8 /* MemViewController.swift */,
+				FFB8AD931F445F11000D6EE5 /* DataFile.swift */,
+				4A5BD3BF1DD0B816004B88A2 /* Assets.xcassets */,
+				FF57CAB01F0FD31600394EBE /* LaunchScreen.storyboard */,
+				4A5BD3BC1DD0B816004B88A2 /* Main.storyboard */,
+				4A5BD3C41DD0B816004B88A2 /* Info.plist */,
+			);
+			path = "movesense-swiftapp";
+			sourceTree = "<group>";
+		};
+		4A5BD3CC1DD0B816004B88A2 /* movesense-swiftappTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A5BD3CD1DD0B816004B88A2 /* MovesenseTests.swift */,
+				4A5BD3CF1DD0B816004B88A2 /* Info.plist */,
+			);
+			path = "movesense-swiftappTests";
+			sourceTree = "<group>";
+		};
+		4A5BD3D71DD0B816004B88A2 /* movesense-swiftappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A5BD3D81DD0B816004B88A2 /* movesense_swiftappUITests.swift */,
+				4A5BD3DA1DD0B816004B88A2 /* Info.plist */,
+			);
+			path = "movesense-swiftappUITests";
+			sourceTree = "<group>";
+		};
+		4A5BD3ED1DD0B875004B88A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F34F21FC9C8350015147F /* RCTRootView.h */,
+				FF57CAA11F0F72EF00394EBE /* libmds.a */,
+				FFC920DE1F0E518C00D69101 /* libz.tbd */,
+				D695FB291E2FAF2000819FF4 /* CoreFoundation.framework */,
+				4A5BD4021DD0BE1D004B88A2 /* CoreBluetooth.framework */,
+				4A5BD4001DD0BE02004B88A2 /* libc++.tbd */,
+				5F4CACA6E0AA60FE2027BAB7 /* Pods_movesense_swiftapp.framework */,
+				6AC00E1A152234E99D15B217 /* Pods_movesense_swiftappTests.framework */,
+				B2F9B526003BB791F59A23F2 /* Pods_movesense_swiftappUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ACE9F421DD2111F003EC898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6588DAE1E34A44600877937 /* Movesense.framework */,
+				4ACE9F4B1DD2111F003EC898 /* Pods_movesense_swiftapp.framework */,
+				4A06082E1DD9EFD8000140EC /* PromiseKit.framework */,
+				3F0F34FB1FC9C8350015147F /* React.framework */,
+				4A7019261DE708C50009CC8C /* SwiftyJSON.framework */,
+				4A7019281DE708C50009CC8C /* Toast_Swift.framework */,
+				3F0F34FD1FC9C8350015147F /* yoga.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70C9CC3A3DB1090E5E608201 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F26FE123E01CB282A455009 /* Pods-movesense-swiftapp.debug.xcconfig */,
+				69A3128DC0EF2B659181D9AC /* Pods-movesense-swiftapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A5BD3B41DD0B816004B88A2 /* movesense-swiftapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5BD3DD1DD0B816004B88A2 /* Build configuration list for PBXNativeTarget "movesense-swiftapp" */;
+			buildPhases = (
+				F3216A750E41DE8CAB45066D /* [CP] Check Pods Manifest.lock */,
+				4A5BD3B11DD0B816004B88A2 /* Sources */,
+				4A5BD3B21DD0B816004B88A2 /* Frameworks */,
+				4A5BD3B31DD0B816004B88A2 /* Resources */,
+				E72035C864E1DF071F71EA02 /* [CP] Embed Pods Frameworks */,
+				FCF145C59C75015B0BC4E1FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "movesense-swiftapp";
+			productName = "movesense-swiftapp";
+			productReference = 4A5BD3B51DD0B816004B88A2 /* movesense-swiftapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A5BD3C81DD0B816004B88A2 /* movesense-swiftappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5BD3E01DD0B816004B88A2 /* Build configuration list for PBXNativeTarget "movesense-swiftappTests" */;
+			buildPhases = (
+				4A5BD3C51DD0B816004B88A2 /* Sources */,
+				4A5BD3C61DD0B816004B88A2 /* Frameworks */,
+				4A5BD3C71DD0B816004B88A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A5BD3CB1DD0B816004B88A2 /* PBXTargetDependency */,
+			);
+			name = "movesense-swiftappTests";
+			productName = "movesense-swiftappTests";
+			productReference = 4A5BD3C91DD0B816004B88A2 /* movesense-swiftappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A5BD3D31DD0B816004B88A2 /* movesense-swiftappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5BD3E31DD0B816004B88A2 /* Build configuration list for PBXNativeTarget "movesense-swiftappUITests" */;
+			buildPhases = (
+				4A5BD3D01DD0B816004B88A2 /* Sources */,
+				4A5BD3D11DD0B816004B88A2 /* Frameworks */,
+				4A5BD3D21DD0B816004B88A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A5BD3D61DD0B816004B88A2 /* PBXTargetDependency */,
+			);
+			name = "movesense-swiftappUITests";
+			productName = "movesense-swiftappUITests";
+			productReference = 4A5BD3D41DD0B816004B88A2 /* movesense-swiftappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A5BD3AD1DD0B816004B88A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Suunto;
+				TargetAttributes = {
+					4A5BD3B41DD0B816004B88A2 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 55DT2NL22V;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					4A5BD3C81DD0B816004B88A2 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 853Q2W9ZPZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A5BD3B41DD0B816004B88A2;
+					};
+					4A5BD3D31DD0B816004B88A2 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 853Q2W9ZPZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A5BD3B41DD0B816004B88A2;
+					};
+				};
+			};
+			buildConfigurationList = 4A5BD3B01DD0B816004B88A2 /* Build configuration list for PBXProject "movesense-swiftapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A5BD3AC1DD0B816004B88A2;
+			productRefGroup = 4A5BD3B61DD0B816004B88A2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4ACE9F421DD2111F003EC898 /* Products */;
+					ProjectRef = 4ACE9F411DD2111F003EC898 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4A5BD3B41DD0B816004B88A2 /* movesense-swiftapp */,
+				4A5BD3C81DD0B816004B88A2 /* movesense-swiftappTests */,
+				4A5BD3D31DD0B816004B88A2 /* movesense-swiftappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3F0F34FB1FC9C8350015147F /* React.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = React.framework;
+			remoteRef = 3F0F34FA1FC9C8350015147F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F0F34FD1FC9C8350015147F /* yoga.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = yoga.framework;
+			remoteRef = 3F0F34FC1FC9C8350015147F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4A06082E1DD9EFD8000140EC /* PromiseKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PromiseKit.framework;
+			remoteRef = 4A06082D1DD9EFD8000140EC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4A7019261DE708C50009CC8C /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 4A7019251DE708C50009CC8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4A7019281DE708C50009CC8C /* Toast_Swift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Toast_Swift.framework;
+			remoteRef = 4A7019271DE708C50009CC8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4ACE9F4B1DD2111F003EC898 /* Pods_movesense_swiftapp.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_movesense_swiftapp.framework;
+			remoteRef = 4ACE9F4A1DD2111F003EC898 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D6588DAE1E34A44600877937 /* Movesense.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Movesense.framework;
+			remoteRef = D6588DAD1E34A44600877937 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A5BD3B31DD0B816004B88A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF57CAB21F0FD31600394EBE /* LaunchScreen.storyboard in Resources */,
+				4A5BD3C01DD0B816004B88A2 /* Assets.xcassets in Resources */,
+				4A5BD3BE1DD0B816004B88A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5BD3C71DD0B816004B88A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5BD3D21DD0B816004B88A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E72035C864E1DF071F71EA02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-movesense-swiftapp/Pods-movesense-swiftapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Movesense/Movesense.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Movesense.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-movesense-swiftapp/Pods-movesense-swiftapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3216A750E41DE8CAB45066D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-movesense-swiftapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCF145C59C75015B0BC4E1FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-movesense-swiftapp/Pods-movesense-swiftapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A5BD3B11DD0B816004B88A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A72BEF71DD1B3F8009DF457 /* ScanListViewController.swift in Sources */,
+				FF9427361F0D32A7001C352B /* MovesenseService.swift in Sources */,
+				FFF2C81A1F4AC12300B7EDF8 /* MemViewController.swift in Sources */,
+				3FC1A9951FCA4CEC00C1C880 /* HelloWorld.swift in Sources */,
+				4A72BEF91DD1B5AD009DF457 /* DetailViewController.swift in Sources */,
+				FFB8AD941F445F11000D6EE5 /* DataFile.swift in Sources */,
+				3FC1A9861FCA202C00C1C880 /* HelloWorld.m in Sources */,
+				4A2742631DE4299300C326F5 /* SubscriptionDetailViewController.swift in Sources */,
+				4A2742581DE3225100C326F5 /* DeviceTabController.swift in Sources */,
+				FF94272C1F0D31D7001C352B /* BleController.swift in Sources */,
+				4A5BD3B91DD0B816004B88A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5BD3C51DD0B816004B88A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5BD3CE1DD0B816004B88A2 /* MovesenseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5BD3D01DD0B816004B88A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5BD3D91DD0B816004B88A2 /* movesense_swiftappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A5BD3CB1DD0B816004B88A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A5BD3B41DD0B816004B88A2 /* movesense-swiftapp */;
+			targetProxy = 4A5BD3CA1DD0B816004B88A2 /* PBXContainerItemProxy */;
+		};
+		4A5BD3D61DD0B816004B88A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A5BD3B41DD0B816004B88A2 /* movesense-swiftapp */;
+			targetProxy = 4A5BD3D51DD0B816004B88A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A5BD3BC1DD0B816004B88A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5BD3BD1DD0B816004B88A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF57CAB01F0FD31600394EBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF57CAB11F0FD31600394EBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A5BD3DB1DD0B816004B88A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A5BD3DC1DD0B816004B88A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A5BD3DE1DD0B816004B88A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F26FE123E01CB282A455009 /* Pods-movesense-swiftapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				DEVELOPMENT_TEAM = 55DT2NL22V;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "movesense-swiftapp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/Movesense/IOS/Movesense/Release-iphoneos";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Movesense\"",
+					"-framework",
+					"\"PromiseKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"Toast_Swift\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suunto.movesense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Movesense/IOS/Movesense/swift/Movesense-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A5BD3DF1DD0B816004B88A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A3128DC0EF2B659181D9AC /* Pods-movesense-swiftapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				DEVELOPMENT_TEAM = 55DT2NL22V;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "movesense-swiftapp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/Movesense/IOS/Movesense/Release-iphoneos";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Movesense\"",
+					"-framework",
+					"\"PromiseKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"Toast_Swift\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suunto.movesense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Movesense/IOS/Movesense/swift/Movesense-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A5BD3E11DD0B816004B88A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 853Q2W9ZPZ;
+				INFOPLIST_FILE = "movesense-swiftappTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Suunto.movesense-swiftappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movesense-swiftapp.app/movesense-swiftapp";
+			};
+			name = Debug;
+		};
+		4A5BD3E21DD0B816004B88A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 853Q2W9ZPZ;
+				INFOPLIST_FILE = "movesense-swiftappTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Suunto.movesense-swiftappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movesense-swiftapp.app/movesense-swiftapp";
+			};
+			name = Release;
+		};
+		4A5BD3E41DD0B816004B88A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				DEVELOPMENT_TEAM = 853Q2W9ZPZ;
+				INFOPLIST_FILE = "movesense-swiftappUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Suunto.movesense-swiftappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "movesense-swiftapp";
+			};
+			name = Debug;
+		};
+		4A5BD3E51DD0B816004B88A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				DEVELOPMENT_TEAM = 853Q2W9ZPZ;
+				INFOPLIST_FILE = "movesense-swiftappUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Suunto.movesense-swiftappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "movesense-swiftapp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A5BD3B01DD0B816004B88A2 /* Build configuration list for PBXProject "movesense-swiftapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5BD3DB1DD0B816004B88A2 /* Debug */,
+				4A5BD3DC1DD0B816004B88A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5BD3DD1DD0B816004B88A2 /* Build configuration list for PBXNativeTarget "movesense-swiftapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5BD3DE1DD0B816004B88A2 /* Debug */,
+				4A5BD3DF1DD0B816004B88A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5BD3E01DD0B816004B88A2 /* Build configuration list for PBXNativeTarget "movesense-swiftappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5BD3E11DD0B816004B88A2 /* Debug */,
+				4A5BD3E21DD0B816004B88A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5BD3E31DD0B816004B88A2 /* Build configuration list for PBXNativeTarget "movesense-swiftappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5BD3E41DD0B816004B88A2 /* Debug */,
+				4A5BD3E51DD0B816004B88A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A5BD3AD1DD0B816004B88A2 /* Project object */;
+}
